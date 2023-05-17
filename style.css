@@ -1,0 +1,155 @@
+body{
+    margin: 0;
+}
+.title{              
+    text-align: center;
+    border: solid 1px;
+    border-radius: 5px;
+    color: rgb(244, 238, 224);
+    background-color: rgb(57, 54, 70);
+}
+.menu-box{
+    list-style: none;
+    display: flex; 
+    flex-direction: row; 
+    padding: 7px 0px; 
+    border: solid 1px; 
+    background-color: rgb(57, 54, 70); 
+    justify-content: space-around;
+}
+.menu{
+    text-decoration: none; 
+    color: rgb(244, 238, 224);
+}
+#html-nav{
+    margin: 5px;
+}
+.table-div{
+    display: flex;
+}
+.table-div section{
+    width: 50%; 
+    display: flex; 
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+.table-div table{
+    width: 100%; 
+    background-color: rgb(57, 54, 70);
+    color:rgb(244, 238, 224);
+    border: solid black 1px;
+}
+
+.line1-table{
+    background-color: rgb(109, 93, 110);
+
+}
+.line2-table{
+    background-color: rgb(79, 69, 87);
+}
+.protocol-list{
+    width: 50%; 
+    display: flex; 
+    flex-direction: column; 
+    border: solid black 1px; 
+    align-items: center; 
+    margin-bottom: 10px;
+    color: rgb(244, 238, 224);
+    background-color: rgb(57, 54, 70);
+}
+#sobre{
+    display: flex;
+}
+.topics-box{
+    width: 33.33%; 
+    height: 300px; 
+    color: rgb(244, 238, 224); 
+    background-color: rgb(57, 54, 70); 
+    align-items: center; 
+    text-align: center;
+    padding: 0px 5px;
+}
+.topics-box-content{
+    display: flex; 
+    text-align: justify; 
+    padding: 0px 5px;
+}
+.mid-topic-box{
+    width: 33.33%; 
+    color: rgb(244, 238, 224);
+    background-color: rgb(79, 69, 87); 
+    text-align: justify; 
+    padding: 0px 5px;
+    text-align: center;
+    align-items: center;
+
+}
+.footer-infos{
+    width: 100%; 
+    display: flex;
+}
+.footer-infos div{
+    width: 50%; 
+    align-items: center; 
+    height: 200px; 
+    background-color: rgb(211, 211, 211); 
+    padding-left: 20%; 
+    padding-right: auto;
+}
+.copyright{
+    background-color: rgb(211, 211, 211);  
+    display: flex; 
+    justify-content: center;
+}
+.message-content{      /*Mensagem central Obrigado.html*/ /*Inicio CSS Obrigado.html*/
+    margin: 0px auto 0px auto; 
+    font-family: Arial, sans-serif; 
+    padding-top: 10rem;
+}
+main{                
+    height: 32rem;
+    text-align: center;
+}
+main h1{                   /*Final CSS Obrigado.html*/
+    border: solid black 2px;
+    border-radius: 20px;
+    margin: auto 32rem;
+    padding: 5px;
+}
+.main-form{              /*Inicio CSS Contato.html*/
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    margin: 50px;
+}
+.main-form form{
+    width: 400px; 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    padding: 30px; 
+    border: 1px solid; 
+    border-radius: 5px; 
+    box-sizing: border-box;
+}
+.main-form div{
+    width: 100%; 
+    margin: 15px 0;
+}
+span{   /*Texto "Fale conosco" dentro do formulário */
+    font-size: x-large; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+}
+.inputs{
+    width: 100%; 
+    border-radius: 5px; 
+    border: none; 
+    border: 1px solid black;
+}
+main div textarea{   /*Fim CSS Contato.html*/
+    width: 100%; 
+    resize: none; 
+    border-radius: 5px;
+}

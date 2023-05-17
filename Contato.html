@@ -1,0 +1,82 @@
+<!--Criar um formulário que pede informações ao usuário.-->
+<html>
+    
+    <head>
+        <title>SAC</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header id="topo">
+            <section class="title">
+                <h1><strong>HTML <sup>Linguagem de Marcação de hipertexto</sup></strong></h1>
+                <h2><strong>Tutorial para inciantes</strong></h2>
+            </section>
+            
+            <nav>
+                <ul class="menu-box">
+                    <li><a href="Index.html" class="menu">Inicio</a></li>
+                    <li><a href="Index.html#html" class="menu">HTML</a></li>
+                    <li><a href="Index.html#table" class="menu">Tabela e listas</a></li>
+            </nav>
+        </header>
+        <main class="main-form">
+            <form method="get" action="Obrigado.html">
+                <P>
+                    <span>Fale conosco</span>
+                </P>
+                <div>
+                    <label>Digite seu nome:</label>
+                    <input type="text" name="name" placeholder="Nome" class="inputs" required/>
+                </div>
+                <div>
+                    <label>Digite seu E-mail:</label>
+                    <input type="email" name="E-mail" placeholder="example@gmail.com" class="inputs" required/>
+                </div>
+                <div>
+                    <label>Selecione o assunto:</label>
+                    <select name="assunto">
+                        <option value="sugestao">Sugestão</option>
+                        <option value="critica">Crítica</option>
+                        <option value="elogio">Elogio</option>
+                    </select>
+                </div>
+                <div>
+                    <label>Escreva a mensagem aqui:</label>
+                    <textarea type="text" name="mensagem" placeholder="Mensagem" class="inputs-message" required></textarea>
+                </div>
+                <div>
+                    <input type="checkbox" name="termos" value="Concordar com os termos" required/>
+                    <label>Concordo com os Termos de privacidade do site.</label>
+                </div>
+                <div>
+                    <input type="submit" value="Enviar"/>
+                </div>        
+            </form>
+        </main>
+        <footer>
+            <section class="footer-infos">
+                <div>
+                    <h2>Sobre</h2> 
+                        <ul>
+                            <li> Política de privacidade</li>
+                            <li><a href="Contato.html">Fale conosco</a></li>
+                        </ul>
+                    
+                </div>
+                <div>
+                    <h2>Tutoriais e referências</h2> 
+                    <ul>
+                        <li><a href="https://tecnoblog.net/responde/o-que-e-javascript-guia-para-iniciantes/">Tecnoblog JavaScript</a></li>
+                        <li><a href="https://www.tecmundo.com.br/programacao/2705-o-que-e-css-.htm">Tecmundo CSS</a></li>
+                        <li><a href="https://www.hostinger.com.br/tutoriais/o-que-e-html-conceitos-basicos">hostinger HTML</a></li>
+                    </ul>
+                </div>
+            </section>
+            <div class="copyright">
+                <p>
+                    VictorMedeiros &copy; Direitos Reservados.
+                <p>
+            </div>
+        </footer>
+    </body>
+</html>
