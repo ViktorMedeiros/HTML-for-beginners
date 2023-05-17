@@ -111,10 +111,12 @@ main{
     text-align: center;
 }
 main h1{                   /*Final CSS Obrigado.html*/
-    border: solid black 2px;
+    border: solid rgb(79, 69, 87) 2px;
     border-radius: 20px;
     margin: auto 32rem;
     padding: 5px;
+    background-color: rgb(57, 54, 70);
+    color: rgb(211, 211, 211);
 }
 .main-form{              /*Inicio CSS Contato.html*/
     display: flex; 
@@ -131,6 +133,8 @@ main h1{                   /*Final CSS Obrigado.html*/
     border: 1px solid; 
     border-radius: 5px; 
     box-sizing: border-box;
+    background-color: rgb(57, 54, 70);
+    color: rgb(244, 238, 224);
 }
 .main-form div{
     width: 100%; 
